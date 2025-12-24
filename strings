@@ -1,0 +1,23 @@
+str2="String in Double qotes"
+str3="""String in Triple quotes"""
+print(str1,str2,str3)
+
+str4="This is string with \n seprate line" #\n is used to separate or print in new line
+print(str4)
+
+str5="This is string with \t space in line" #\t is used to space or tab in line
+print(str5)
+
+
+#concatenation
+final_str= str1+str2 #concatenation is term used to add both strings
+print(final_str) #or
+print(str1+str2) 
+
+
+#len()  **in len() spaces are too count as well as special chars,no.,etc
+str6="sumit" #len() is a funtion used to find length of string
+print(len(str6))
+#or it can be also written as
+len1=len(str6)
+print(len1)
